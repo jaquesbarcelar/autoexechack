@@ -1,7 +1,7 @@
 t gpio 43 sw out0
-sleep X
+sleep 300
 t gpio 43 sw out1
 t gpio 43 sw out0
-sleep 5
+sleep 300
 d:\autoexec.ash
 reboot yes
